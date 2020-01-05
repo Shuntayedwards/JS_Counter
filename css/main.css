@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/bloomBackground.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    font-family: arial;
+    text-transform: capitalize;
+}
+.counter-box{
+    flex:0 0 60%;
+    text-align: center;
+    border: 3px solid #f125a3;
+    padding:1rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 10px white;
+}
+.counter{
+    font-size: 5rem;
+}
+.btn{
+    background: #fff;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem;
+    border:3px solid #f125a3;
+    box-shadow: 0 5px #001221;
+    outline:none;
+
+}
+.btn:hover{
+    background-color: #f55bf5;
+    color: white;
+}
+.btn:active{
+    box-shadow:none;
+    
+
+}
+
+
